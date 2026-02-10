@@ -1,0 +1,125 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.sub {
+  margin: 6px 0 18px;
+  color: #666;
+}
+
+.panel {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn, .btnPrimary, .btnDanger {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  background: white;
+  cursor: pointer;
+}
+
+.btnPrimary {
+  border-color: #2b6;
+  background: #eafff3;
+}
+
+.btnDanger {
+  border-color: #d66;
+  background: #fff2f2;
+}
+
+.status {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.status.ok { background: #eafff3; border: 1px solid #2b6; }
+.status.err { background: #fff2f2; border: 1px solid #d66; }
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  border-top: 1px solid #eee;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.item:first-child {
+  border-top: none;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.desc {
+  color: #444;
+  margin-top: 4px;
+  white-space: pre-wrap;
+}
+
+.meta {
+  margin-top: 8px;
+}
+
+.pill {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: #666;
+  font-size: 12px;
+}
+
+.muted {
+  color: #666;
+}
+
+.footer {
+  margin-top: 18px;
+  color: #666;
+}
