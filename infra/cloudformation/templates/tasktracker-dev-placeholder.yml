@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: TaskTracker dev placeholder stack (temporary bootstrap resource)
+
+# -------------------------------------------------------------------
+# TEMPORARY PLACEHOLDER RESOURCE
+#
+# CloudFormation requires at least one resource in a template.
+# This LogGroup exists ONLY to allow stack creation during initial
+# project scaffolding.
+#
+# When real infrastructure resources are added for Project 2,
+# this placeholder MUST be removed.
+# -------------------------------------------------------------------
+
+Resources:
+  PlaceholderLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: tasktracker-dev-placeholder
+      RetentionInDays: 1
