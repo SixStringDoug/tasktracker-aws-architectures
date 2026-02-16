@@ -36,3 +36,6 @@ override.tf.json
 # IMPORTANT:
 # Keep this file tracked for provider version consistency
 !.terraform.lock.hcl
+
+# IntelliJ
+.idea/
