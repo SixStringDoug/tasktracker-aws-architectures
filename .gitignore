@@ -32,6 +32,8 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+*.tfvars
+terraform.tfvars
 
 # IMPORTANT:
 # Keep this file tracked for provider version consistency
