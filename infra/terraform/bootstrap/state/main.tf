@@ -6,7 +6,7 @@ locals {
 }
 
 resource "aws_s3_bucket" "tfstate" {
-  bucket = local.state_bucket
+  bucket        = local.state_bucket
   force_destroy = true
 }
 

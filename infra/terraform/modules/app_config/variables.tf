@@ -16,7 +16,7 @@ variable "db_port" {
   default = 5432
 }
 
-# Sensitive values (we will store as SecureString in SSM)
+# Sensitive values (will store as SecureString in SSM)
 variable "db_username" {
   type      = string
   sensitive = true
@@ -25,4 +25,5 @@ variable "db_username" {
 variable "db_password" {
   type      = string
   sensitive = true
+  default   = null
 }
